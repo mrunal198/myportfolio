@@ -1,0 +1,594 @@
+.App {
+  text-align: center;
+  background-color: #FFFEFE;
+}
+
+
+.side{
+  /* Rectangle 1 */
+  position: absolute;
+  width: 339px;
+  height: 556px;
+  left: 910px;
+  top: 0px;
+  background: rgba(147, 104, 74, 0.91);
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  /* Artwork */
+}
+
+
+.artwork{
+  /* Artwork */
+  position: absolute;
+  width: 339px;
+  height: 156px;
+  left: 1000px;
+  top: 50px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 84px;
+  color: rgb(57 32 9 / 91%);
+  transform: rotate(90deg);
+
+}
+
+.profile{
+  position: absolute;
+    width: 319px;
+    height: 382px;
+    left: 694px;
+    top: 175px;
+  background: url(profile.png);
+}
+.name{
+  /* Mrunal More */
+
+  position: absolute;
+  width: 573px;
+  /* height: 90px; */
+  left: 70px;
+  top: 177px;
+  font-family: 'KoPub Batang';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 66px;
+}
+
+.detail{
+  /* Blockchain Developer /Digital artist */
+  position: absolute;
+  width: 550px;
+  /* height: 116px; */
+  left: 110px;
+  top: 250px;
+  font-family: 'Inter';
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 28px;
+  /* line-height: 58px; */
+  color: #000000;
+}
+.hireme{
+  /* Rectangle 2 */
+  /* Hire me */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+  position: absolute;
+  width: 141px;
+  height: 38px;
+  left: 200px;
+  top: 300px;
+  background: #FFFEFE;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.Resume{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+  position: absolute;
+  width: 141px;
+  height: 38px;
+  left: 384px;
+  top: 300px;
+  background: #FFFEFE;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.skills{
+  /* Rectangle 3 */
+  position: absolute;
+  width: 1259px;
+  height: 456px;
+  left: 0px;
+  top: 558px;
+  background: rgb(251 246 240 / 93%);
+}
+
+
+
+.navbar {
+  padding-right: 800px;
+}
+
+@media screen and (max-width: 430px ){
+  .navbar {
+    padding-right: 0px;
+    padding-left: 20px;
+    display: flex;
+    font-size: 35px;
+  }
+  }
+
+.contact-container {
+  position: absolute;
+    width: 1219px;
+    height: 250px;
+    /* left: 115px; */
+    background-color: #554331;
+    color: white;
+    padding: 20px;
+}
+
+.contact-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.contact-list li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
+
+.contact-list a {
+  color: white; /* Link color */
+  text-decoration: underline; /* Underline links */
+}
+
+.contact-list a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.table-container {
+  margin-top: 1000px;
+  width: 1259px;
+  height: 456px; 
+}
+
+.project-table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.project-table th, .project-table td {
+  padding: 8px; 
+  text-align: center;
+}
+
+.project-table th {
+  /* background-color: #f2f2f2;  */
+}
+
+
+.skillsbox{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 483px;
+  height: 50px;
+  left: 115px;
+  top: 100px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.skillsbox1{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 483px;
+  height: 50px;
+  left: 655px;
+  top: 100px;
+  align-items: center;
+  padding-bottom: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox1 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.skillsbox2{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 483px;
+  height: 50px;
+  left: 115px;
+  top: 200px;
+  padding-bottom: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox2 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.skillsbox3{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 483px;
+  height: 50px;
+  left: 655px;
+  top: 200px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox3 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+.skillsbox4{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 483px;
+  height: 50px;
+  left: 355px;
+  top: 300px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  font-family: 'Inika';
+  padding-bottom: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #252424;
+}
+.skillsbox4 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 100px;
+
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.alldetail{
+  position: absolute;
+    left: 74px;
+    top: 75px;
+}
+
+@media screen and (max-width: 430px ){
+  .side{
+    box-sizing: border-box;
+    position: absolute;
+    width: 202px;
+    height: 2730px;
+    left: 1090px;
+    top: 0px;
+    background: rgba(147, 104, 74, 0.91);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .profile {
+    position: absolute;
+      width: 457px;
+      height: 546px;
+      left: 394px;
+      top: 775px;
+    background: url(profileMobile.png);
+  }
+  .name{
+    /* Mrunal More */
+  
+    position: absolute;
+    width: 573px;
+    /* height: 90px; */
+    left: 250px;
+    top: 1277px;
+    font-family: 'KoPub Batang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+  }
+  .table-container {
+    margin-top: 3400px;
+    width: 1259px;
+    height: 456px; 
+    font-size: 30px;
+  }
+
+  .contact-container {
+    position: absolute;
+      width: 1259px;
+      height: 450px;
+      /* left: 115px; */
+      background-color: #554331;
+      font-size: 30px;
+      color: white;
+      padding: 20px;
+  }
+  
+  .detail{
+    /* Blockchain Developer /Digital artist */
+    position: absolute;
+    width: 550px;
+    /* height: 116px; */
+    left: 250px;
+    top: 1397px;
+    font-family: 'Inter';
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 68px;
+    /* line-height: 58px; */
+    color: #000000;
+  }
+  .hireme{
+    /* Rectangle 2 */
+    /* Hire me */
+  
+    font-size: 50px;
+    line-height: 29px;
+    text-align: center;
+    position: absolute;
+    width: 241px;
+    height: 58px;
+    left: 400px;
+    top: 1700px;
+    background: #FFFEFE;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+  }
+  
+  .skills{
+    /* Rectangle 3 */
+    position: absolute;
+    width: 1299px;
+    height: 856px;
+    left: 0px;
+    top: 2728px;
+    font-size: 30px;
+    background: rgb(251 246 240 / 93%);
+  }
+  
+.skillsbox{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 1050px;
+  height: 70px;
+  left: 115px;
+  top: 200px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.skillsbox1{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 1050px;
+  height: 70px;
+  left: 115px;
+  top: 330px;
+  align-items: center;
+  padding-bottom: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox1 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.skillsbox2{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 1050px;
+  height: 70px;
+  left: 115px;
+  top: 450px;
+  padding-bottom: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox2 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.skillsbox3{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 1050px;
+  height: 70px;
+  left: 115px;
+  top: 570px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #000000;
+}
+
+.skillsbox3 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+.skillsbox4{
+  /* Rectangle 5 */
+  position: absolute;
+  width: 1050px;
+  height: 70px;
+  left: 115px;
+  top: 690px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1.4px solid #d1d5e4;
+  border-radius: 10px;
+  font-family: 'Inika';
+  padding-bottom: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: #252424;
+}
+.skillsbox4 img{
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.artwork{
+  /* Artwork */
+  position: absolute;
+    width: 339px;
+    height: 156px;
+    left: 1000px;
+    top: 150px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 84px;
+  color: rgb(57 32 9 / 91%);
+  transform: rotate(90deg);
+}
+
+}
+
+
+
