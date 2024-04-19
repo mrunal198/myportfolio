@@ -52,7 +52,7 @@ function Hero() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className='hireme'>Hire me</button></a>
+        <button className='hireme'>Resume</button></a>
         {/* <button className='Resume' onClick={() => toPDF()}>Resume</button> */}
         {/* <div ref={targetRef}>{resume}</div> */}
       </div>
